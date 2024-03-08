@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.header_optin {
+  background-color: #00aeff;
+  text-align: center;
+  padding: 15px;
+}
+.header_optin p {
+  font-weight: 500;
+  font-size: 16px;
+}
+.header_logo {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 15px;
+}
+.header_logo {
+  font-weight: 600;
+  font-size: 24px;
+}
+.header_nav {
+  height: 378px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.png);
+}
+.header_nav_text {
+  width: 90%;
+  color: #f9f9f9;
+}
+.header_nav_text h1 {
+  font-weight: 600;
+  font-size: 48px;
+  padding: 15px 0;
+}
+.header_nav_text p {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_content {
+  width: 90%;
+  text-align: center;
+  padding: 15px;
+}
+.main_content_text h1 {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 15px;
+}
+.main_content_text p {
+  font-weight: 500;
+  font-size: 20px;
+}
+.main_content_images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 10px;
+}
+.main_content_images img {
+  background-color: rgb(235, 233, 234);
+  margin: 10px;
+  padding: 70px;
+}
+
+.footer_content {
+  background-color: #00aeff;
+  text-align: center;
+  padding: 15px;
+}
+.footer_content p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (max-width: 415px) {
+  .header_nav {
+    height: 378px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.png);
+  }
+  .header_nav_text {
+    width: 90%;
+    color: #f9f9f9;
+  }
+  .header_nav_text h1 {
+    font-weight: 700;
+    font-size: 28px;
+    padding: 15px 0;
+  }
+  .header_nav_text p {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .main_content_images img {
+    background-color: rgb(235, 233, 234);
+    margin: 10px;
+    padding: 60px;
+  }
+}
