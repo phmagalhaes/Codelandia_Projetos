@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png">
+  </head>
+  <body>
+    <header>
+      <div class="header_content">
+        <div class="header_content_title">
+          <p>Porfólio</p>
+        </div>
+        <div class="header_content_links">
+          <p onclick="scrollToSection('about')">Sobre mim</p>
+          <p onclick="scrollToSection('projects')">Projetos</p>
+          <p onclick="scrollToSection('services')">Serviços</p>
+          <p onclick="scrollToSection('skills')">Minhas skills</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main_content">
+        <div class="main_content_prim">
+          <div class="main_content_prim_text">
+            <div class="main_content_prim_text_title">
+              <p>
+                Oi (: <br />
+                sou o Pedro Magalhães
+              </p>
+            </div>
+            <div class="main_content_prim_text_subtitle">
+              <p>Desenvolvedor Front-End & UX e UI Designer</p>
+            </div>
+            <div class="main_content_prim_text_buttons">
+              <button class="main_content_prim_text_buttons_download">
+                Download CV
+              </button>
+              <button class="main_content_prim_text_buttons_contact">
+                Entrar em contato
+              </button>
+            </div>
+          </div>
+          <div class="main_content_prim_img">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="main_content_about" id="about">
+            <div class="main_content_about_text">
+              <p class="main_content_about_text_tilte">Sobre mim</p>
+              <p class="main_content_about_text_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident
+              </p>
+            </div>
+            <div class="main_content_about_links">
+                <div>
+                    <img src="img/linkedin.svg" alt="">
+                    <p>Linkedin</p>
+                    <a href="https://www.linkedin.com/feed/" target="_blank">Acesse aqui</a>
+                </div>
+                <div>
+                    <img src="img/mail.svg" alt="">
+                    <p>E-mail</p>
+                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Acesse aqui</a>
+                </div>
+                <div>
+                    <img src="img/github.svg" alt="">
+                    <p>Github</p>
+                    <a href="https://github.com/" target="_blank">Acesse aqui</a>
+                </div>
+            </div>
+            <div class="main_content_projects" id="projects">
+                <div class="main_content_projects_title">
+                    <p>Projetos</p>
+                </div>
+                <div class="main_content_projects_cards">
+                    <div class="main_content_projects_cards_example">
+                        <div></div>
+                        <p>Título do projeto</p>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                    <div class="main_content_projects_cards_example">
+                        <div></div>
+                        <p>Título do projeto</p>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                    <div class="main_content_projects_cards_example">
+                        <div></div>
+                        <p>Título do projeto</p>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                    <div class="main_content_projects_cards_example">
+                        <div></div>
+                        <p>Título do projeto</p>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                    <div class="main_content_projects_cards_example">
+                        <div></div>
+                        <p>Título do projeto</p>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                    <div class="main_content_projects_cards_example">
+                        <div></div>
+                        <p>Título do projeto</p>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_content_services" id="services">
+              <div class="main_content_services_title">
+                <p>Serviços</p>
+              </div>
+              <div class="main_content_services_cards">
+                <div class="main_content_services_cards_example">
+                  <img src="img/code.svg" alt="">
+                  <p>Criação de sites</p>
+                </div>
+                <div class="main_content_services_cards_example">
+                  <img src="img/figma.svg" alt="">
+                  <p>UI Designer</p>
+                </div>
+                <div class="main_content_services_cards_example">
+                  <img src="img/smartphone.svg" alt="">
+                  <p>Sites responsivos</p>
+                </div>
+              </div>
+            </div>
+            <div class="main_content_skills" id="skills">
+              <div class="main_content_skills_title">
+                <p>Minhas Skills</p>
+              </div>
+              <div class="main_content_skills_cards">
+                <div class="main_content_skills_cards_example">
+                  <img src="img/html5.svg">
+                </div>
+                <div class="main_content_skills_cards_example">
+                  <img src="img/css3.svg">
+                </div>
+                <div class="main_content_skills_cards_example">
+                  <img src="img/js icon.svg">
+                </div>
+                <div class="main_content_skills_cards_example">
+                  <img src="img/figma skills.svg">
+                </div>
+                <div class="main_content_skills_cards_example">
+                  <img src="img/react icon.svg">
+                </div>
+              </div>
+            </div>
+    </main>
+
+    <footer>
+      <div class="footer_content">
+        <p>Desenvolvido por Pedro Magalhães</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
