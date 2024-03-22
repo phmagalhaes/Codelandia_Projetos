@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "lexend deca";
+}
+body {
+  min-height: 100vh;
+  background: rgb(131,58,180);
+background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+.header_content_subtitle{
+    color: white;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+.header_content_title{
+    font-family: "Saira";
+    font-weight: 600;
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 4px 10px rgba(253, 187, 45, 0.651);
+}
+
+.main_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50ch;
+}
+
+.main_content_form{
+    background: white;
+    padding: 50px 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 50px 5px rgba(252,176,69,1);
+}
+.main_content_form p{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(253,29,29,1);
+    text-shadow: 0px 0px 10px rgba(252,176,69,1);
+}
+.main_content_form form{
+    margin-top: 100px;
+}
+.main_content_form form select, .main_content_form form button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgba(253,29,29,1);
+    background-color: rgb(255, 189, 97);
+    color: white;
+    font-size: 15px;
+    text-shadow: 0px 0px 7px rgba(253,29,29,1);
+}
+.main_content_form form button{
+    width: 100px;
+}
+.main_content_form form button:hover{
+    background-color: rgb(255, 205, 134);
+}
