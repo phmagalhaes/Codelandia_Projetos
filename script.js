@@ -24,4 +24,10 @@ function pageRedirect(){
     if(page.value === "Desafio 9"){
         window.open("https://phmagalhaes.github.io/Codelandia_Projetos/Desafio09/index.html", "_blank")
     }
+    if(page.value === "Desafio 11"){
+        window.open("https://phmagalhaes.github.io/Codelandia_Projetos/Desafio11/index.html", "_blank")
+    }
+    if(page.value === "Desafio 16"){
+        window.open("https://phmagalhaes.github.io/Codelandia_Projetos/Desafio16/index.html", "_blank")
+    }
 }
