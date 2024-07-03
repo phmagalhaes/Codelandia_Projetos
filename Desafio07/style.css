@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+    box-sizing: border-box;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+body{
+    height: 100vh;
+    background-color: #0F1923;
+    position: relative;
+}
+.image_back {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+.image_back img {
+    height: 100vh;
+}
+
+.image_jett{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+}
+.image_jett img{
+    width: 630px;
+}
+
+.header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    text-align: center;
+    margin-top: 50px;
+}
